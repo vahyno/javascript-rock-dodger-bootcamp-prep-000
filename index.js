@@ -43,7 +43,7 @@ function checkCollision(rock) {
   }
 }
 
-function createRock(x) {
+/*function createRock(x) {
   const rock = document.createElement('div')
 
   rock.className = 'rock'
@@ -51,8 +51,8 @@ function createRock(x) {
 
   var top = rock.style.top = 0
 
-  GAME.appendChild(rock)
-/*function createRock(x) {
+  GAME.appendChild(rock)*/
+function createRock(x) {
   const rock = document.createElement('div')
 
   rock.className = 'rock'
@@ -60,15 +60,14 @@ function createRock(x) {
 
   // Hmmm, why would we have used `var` here?
   var top = 0
-
   rock.style.top = top
 
   /**
    * Now that we have a rock, we'll need to append
    * it to GAME and move it downwards.
    */
-   GAME.append(rock);
-*/
+  GAME.appendChild(rock);
+
   /**
    * This function moves the rock. (2 pixels at a time
    * seems like a good pace.)
