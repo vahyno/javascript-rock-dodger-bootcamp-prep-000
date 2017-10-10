@@ -111,7 +111,7 @@ function moveRock() {
  * Finally, alert "YOU LOSE!" to the player.
  */
 function endGame() {
-  gameInterval = null
+  clearInterval(gameInterval)
   window.removeEventListener('keydown', moveDodger)
   return window.alert("YOU LOSE!")
 }
