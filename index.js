@@ -124,7 +124,6 @@ function moveDodger(e) {
     e.stopPropagation()
     moveDodgerLeft()
   }
-})
 // implement me!
   /**
    * This function should call `moveDodgerLeft()`
