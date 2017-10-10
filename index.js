@@ -111,7 +111,7 @@ function moveRock() {
  * Finally, alert "YOU LOSE!" to the player.
  */
 function endGame() {
-  //console.alert("YOU LOSE!")
+  console.alert("YOU LOSE!")
 }
 
 function moveDodger(e) {
